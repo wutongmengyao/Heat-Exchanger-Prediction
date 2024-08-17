@@ -9,13 +9,15 @@ Given the pressing demand for energy conservation, the petrochemical sector face
 all.ipynb and stacking.ipynb are our codes
 data.xlsx is the data we use
 
-\hline
-        Methods & MSE & MAE & MAPE\% & $R^2$ & RAE\% \\
-        \hline
-        Knn & $6.94 \times 10^{-4}$ & $7.08 \times 10^{-3}$ & 19.19 & 0.98029 & 4.63 \\
-        Random forest & $1.30 \times 10^{-4}$ & $4.40 \times 10^{-3}$ & 16.68 & 0.99631 & 2.87 \\
-        Bagging & $1.54 \times 10^{-4}$ & $4.80 \times 10^{-3}$ & 16.06 & 0.99561 & 3.13 \\
-        Xgboost & $1.65 \times 10^{-4}$ & $4.82 \times 10^{-3}$ & 16.23 & 0.99671 & 3.09 \\
-        Lightgbm & $1.50 \times 10^{-4}$ & $4.34 \times 10^{-3}$ & 16.59 & 0.99622 & 3.28 \\
-        GPR & $4.50 \times 10^{-4}$ & $5.18 \times 10^{-3}$ & 16.21 & 0.99221 & 5.81 \\
-\hline
+## Experimental Results
+
+
+         Performance comparison of classical ML prediction models.
+| Methods       | MSE          | MAE          | MAPE% | R²     | RAE% |
+|---------------|--------------|--------------|-------|--------|------|
+| Knn           | 6.94 × 10⁻⁴  | 7.08 × 10⁻³  | 19.19 | 0.98029| 4.63 |
+| Random forest | 1.30 × 10⁻⁴  | 4.40 × 10⁻³  | 16.68 | 0.99631| 2.87 |
+| Bagging       | 1.54 × 10⁻⁴  | 4.80 × 10⁻³  | 16.06 | 0.99561| 3.13 |
+| Xgboost       | 1.65 × 10⁻⁴  | 4.82 × 10⁻³  | 16.23 | 0.99617| 3.09 |
+| Lightgbm      | 1.50 × 10⁻⁴  | 4.34 × 10⁻³  | 16.59 | 0.99622| 3.28 |
+| GPR           | 4.50 × 10⁻⁴  | 5.18 × 10⁻³  | 16.21 | 0.99221| 5.81 |
